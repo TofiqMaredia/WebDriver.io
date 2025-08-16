@@ -1,0 +1,26 @@
+{
+  "name": "wdio-ts-project",
+  "type": "module",
+  "devDependencies": {
+    "@testing-library/webdriverio": "^3.2.1",
+    "@wdio/appium-service": "^9.7.1",
+    "@wdio/cli": "^9.7.1",
+    "@wdio/local-runner": "^9.7.1",
+    "@wdio/mocha-framework": "^9.6.4",
+    "@wdio/spec-reporter": "^9.6.3",
+    "appium": "^2.15.0",
+    "appium-uiautomator2-driver": "^3.10.0",
+    "chromedriver": "^131.0.1",
+    "wdio-chromedriver-service": "^8.1.1",
+    "wdio-safaridriver-service": "^2.1.1",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts",
+    "browser": "wdio run config/wdio.browser.conf.ts",
+    "android": "wdio run config/wdio.android.conf.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.9"
+  }
+}

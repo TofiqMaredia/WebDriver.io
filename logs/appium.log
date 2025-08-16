@@ -1,0 +1,469 @@
+2025-02-03 04:20:13:824 [Appium] Welcome to Appium v2.15.0
+2025-02-03 04:20:13:827 [Appium] Non-default server args:
+2025-02-03 04:20:13:829 [Appium] { basePath: '/', port: 51352, relaxedSecurityEnabled: true }
+2025-02-03 04:20:13:829 [Appium] The autodetected Appium home path: /Users/tofiqmaredia/Project/wdio/wdio-ts-project
+2025-02-03 04:20:13:830 [Appium] Attempting to load driver uiautomator2...
+2025-02-03 04:20:13:834 [Appium] Requiring driver at /Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/build/index.js
+2025-02-03 04:20:15:110 [Appium] AndroidUiautomator2Driver has been successfully loaded in 1.279s
+2025-02-03 04:20:15:130 [Appium] Appium REST http interface listener started on http://0.0.0.0:51352
+2025-02-03 04:20:15:132 [Appium] You can provide the following URLs in your client code to connect to this server:
+	http://127.0.0.1:51352/ (only accessible from the same host)
+	http://192.168.68.108:51352/
+2025-02-03 04:20:15:133 [Appium] Available drivers:
+2025-02-03 04:20:15:133 [Appium]   - uiautomator2@3.10.0 (automationName 'UiAutomator2')
+2025-02-03 04:20:15:134 [Appium] No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+2025-02-03 04:20:15:154 [HTTP] --> POST /session {"capabilities":{"alwaysMatch":{"platformName":"Android","wdio:maxInstances":1,"appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"13.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:appPackage":"com.intragrain.binsensemobile","appium:newCommandTimeout":240,"appium:noReset":true},"firstMatch":[{}]}}
+2025-02-03 04:20:15:156 [AppiumDriver@ed45] Calling AppiumDriver.createSession() with args: [null,null,{"alwaysMatch":{"platformName":"Android","wdio:maxInstances":1,"appium:deviceName":"Pixel 6 Pro","appium:platformVersion":"13.0","appium:orientation":"PORTRAIT","appium:automationName":"UiAutomator2","appium:appPackage":"com.intragrain.binsensemobile","appium:newCommandTimeout":240,"appium:noReset":true},"firstMatch":[{}]}]
+2025-02-03 04:20:15:158 [AppiumDriver@ed45] Event 'newSessionRequested' logged at 1738556415157 (22:20:15 GMT-0600 (Central Standard Time))
+2025-02-03 04:20:15:162 [Appium] Attempting to find matching driver for automationName 'UiAutomator2' and platformName 'Android'
+2025-02-03 04:20:15:163 [Appium] The 'uiautomator2' driver was installed and matched caps.
+2025-02-03 04:20:15:164 [Appium] Will require it at /Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver
+2025-02-03 04:20:15:166 [Appium] Requiring driver at /Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/build/index.js
+2025-02-03 04:20:15:168 [AppiumDriver@ed45] Appium v2.15.0 creating new AndroidUiautomator2Driver (v3.10.0) session
+2025-02-03 04:20:15:168 [AppiumDriver@ed45] Checking BaseDriver versions for Appium and AndroidUiautomator2Driver
+2025-02-03 04:20:15:169 [AppiumDriver@ed45] Appium's BaseDriver version is 9.15.0
+2025-02-03 04:20:15:169 [AppiumDriver@ed45] AndroidUiautomator2Driver's BaseDriver version is 9.15.0
+2025-02-03 04:20:15:173 [AppiumDriver@ed45] Applying relaxed security to 'AndroidUiautomator2Driver' as per server command line argument. All insecure features will be enabled unless explicitly disabled by --deny-insecure
+2025-02-03 04:20:15:175 [38;5;-110m[AndroidUiautomator2Driver@e7fc] 
+2025-02-03 04:20:15:176 [38;5;-110m[AndroidUiautomator2Driver@e7fc] Creating session with W3C capabilities: {
+  "alwaysMatch": {
+    "platformName": "Android",
+    "wdio:maxInstances": 1,
+    "appium:deviceName": "Pixel 6 Pro",
+    "appium:platformVersion": "13.0",
+    "appium:orientation": "PORTRAIT",
+    "appium:automationName": "UiAutomator2",
+    "appium:appPackage": "com.intragrain.binsensemobile",
+    "appium:newCommandTimeout": 240,
+    "appium:noReset": true
+  },
+  "firstMatch": [
+    {}
+  ]
+}
+2025-02-03 04:20:15:185 [38;5;-110m[AndroidUiautomator2Driver@e7fc] The following provided capabilities were not recognized by this driver:
+2025-02-03 04:20:15:186 [38;5;-110m[AndroidUiautomator2Driver@e7fc]   wdio:maxInstances
+2025-02-03 04:20:15:186 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Session created with session id: 9f27d7f9-7fde-46ec-9273-1b19f464ec34
+2025-02-03 04:20:15:196 [9f27d7f9][ADB] Found 0 'build-tools' folders under '/Users/tofiqmaredia/Library/Android/sdk' (newest first):
+2025-02-03 04:20:15:197 [9f27d7f9][ADB] Using 'adb' from '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb'
+2025-02-03 04:20:15:198 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2025-02-03 04:20:15:234 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Retrieving device list
+2025-02-03 04:20:15:235 [9f27d7f9][ADB] Trying to find connected Android devices
+2025-02-03 04:20:15:236 [9f27d7f9][ADB] Getting connected devices
+2025-02-03 04:20:15:270 [9f27d7f9][ADB] Connected devices: [{"udid":"1A191FDEE0068D","state":"device"}]
+2025-02-03 04:20:15:271 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Looking for a device with Android '13.0.0'
+2025-02-03 04:20:15:271 [9f27d7f9][ADB] Setting device id to 1A191FDEE0068D
+2025-02-03 04:20:15:272 [9f27d7f9][ADB] Getting device platform version
+2025-02-03 04:20:15:272 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell getprop ro.build.version.release'
+2025-02-03 04:20:15:369 [9f27d7f9][ADB] Current device property 'ro.build.version.release': 13
+2025-02-03 04:20:15:370 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Using device: 1A191FDEE0068D
+2025-02-03 04:20:15:372 [9f27d7f9][ADB] Using 'adb' from '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb'
+2025-02-03 04:20:15:373 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 start-server'
+2025-02-03 04:20:15:408 [9f27d7f9][ADB] Setting device id to 1A191FDEE0068D
+2025-02-03 04:20:15:409 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Starting 'com.intragrain.binsensemobile' directly on the device
+2025-02-03 04:20:15:410 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell getprop ro.build.version.sdk'
+2025-02-03 04:20:15:495 [9f27d7f9][ADB] Current device property 'ro.build.version.sdk': 33
+2025-02-03 04:20:15:496 [9f27d7f9][ADB] Getting device platform version
+2025-02-03 04:20:15:497 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell getprop ro.build.version.release'
+2025-02-03 04:20:15:585 [9f27d7f9][ADB] Current device property 'ro.build.version.release': 13
+2025-02-03 04:20:15:586 [9f27d7f9][ADB] Device API level: 33
+2025-02-03 04:20:15:586 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Relaxing hidden api policy
+2025-02-03 04:20:15:587 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell 'settings put global hidden_api_policy_pre_p_apps 1;settings put global hidden_api_policy_p_apps 1;settings put global hidden_api_policy 1''
+2025-02-03 04:20:15:590 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Parsing activity from the installed 'com.intragrain.binsensemobile' package manifest
+2025-02-03 04:20:15:592 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Pushing settings apk to the device...
+2025-02-03 04:20:15:593 [9f27d7f9][ADB] Getting package info for 'io.appium.settings'
+2025-02-03 04:20:15:593 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys package io.appium.settings'
+2025-02-03 04:20:15:597 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell cmd package resolve-activity --brief com.intragrain.binsensemobile'
+2025-02-03 04:20:15:673 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Resolved launch package -> activity: com.intragrain.binsensemobile -> com.intragrain.binsensemobile/.MainActivity
+2025-02-03 04:20:15:674 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Resolved wait package -> activity: com.intragrain.binsensemobile -> com.intragrain.binsensemobile/.MainActivity
+2025-02-03 04:20:15:696 [9f27d7f9][ADB] Error 'Could not find 'aapt2' in ["/Users/tofiqmaredia/Library/Android/sdk/platform-tools/aapt2","/Users/tofiqmaredia/Library/Android/sdk/emulator/aapt2","/Users/tofiqmaredia/Library/Android/sdk/cmdline-tools/latest/bin/aapt2","/Users/tofiqmaredia/Library/Android/sdk/tools/aapt2","/Users/tofiqmaredia/Library/Android/sdk/tools/bin/aapt2","/Users/tofiqmaredia/Library/Android/sdk/aapt2"]. Do you have Android Build Tools installed at '/Users/tofiqmaredia/Library/Android/sdk'?' while getting badging info
+2025-02-03 04:20:15:697 [9f27d7f9][ADB] Cannot read version codes of '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' and/or 'io.appium.settings'
+2025-02-03 04:20:15:697 [9f27d7f9][ADB] Cannot read version names of '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' and/or 'io.appium.settings'
+2025-02-03 04:20:15:698 [9f27d7f9][ADB] The current install state of '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' is unknown. Installing anyway
+2025-02-03 04:20:15:699 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D help'
+2025-02-03 04:20:15:732 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D features'
+2025-02-03 04:20:15:763 [9f27d7f9][ADB] The application at '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+2025-02-03 04:20:15:764 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D install -r -g /Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2025-02-03 04:20:17:273 [9f27d7f9][ADB] The installation of 'settings_apk-debug.apk' took 1509ms
+2025-02-03 04:20:17:274 [9f27d7f9][ADB] Install command stdout: Performing Streamed Install
+Success
+2025-02-03 04:20:17:276 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys activity services io.appium.settings'
+2025-02-03 04:20:17:330 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell cmd notification allow_listener io.appium.settings/.NLService'
+2025-02-03 04:20:17:333 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell appops set io.appium.settings PROJECT_MEDIA allow'
+2025-02-03 04:20:17:392 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys activity services io.appium.settings'
+2025-02-03 04:20:17:446 [9f27d7f9][SettingsApp] Starting Appium Settings app
+2025-02-03 04:20:17:448 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell am start-activity -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER'
+2025-02-03 04:20:17:521 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys activity services io.appium.settings'
+2025-02-03 04:20:17:891 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys activity services io.appium.settings'
+2025-02-03 04:20:17:950 [9f27d7f9][Logcat] Starting logs capture with command: /Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D logcat -v threadtime
+2025-02-03 04:20:17:956 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell appops set io.appium.settings android:mock_location allow'
+2025-02-03 04:20:18:012 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell "[ -e '/data/local/tmp/mock_apps.json' ] && echo __PASS__"'
+2025-02-03 04:20:18:057 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell cat /data/local/tmp/mock_apps.json'
+2025-02-03 04:20:18:108 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Forwarding UiAutomator2 Server port 6790 to local port 8200
+2025-02-03 04:20:18:109 [9f27d7f9][ADB] Forwarding system: 8200 to device: 6790
+2025-02-03 04:20:18:110 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D forward tcp:8200 tcp:6790'
+2025-02-03 04:20:18:148 [9f27d7f9][ADB] Getting package info for 'io.appium.uiautomator2.server'
+2025-02-03 04:20:18:149 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys package io.appium.uiautomator2.server'
+2025-02-03 04:20:18:151 [9f27d7f9][ADB] Getting install status for io.appium.uiautomator2.server.test
+2025-02-03 04:20:18:151 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] No app capability. Assuming it is already on the device
+2025-02-03 04:20:18:152 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell cmd package list packages'
+2025-02-03 04:20:18:225 [9f27d7f9][ADB] Error 'Could not find 'aapt2' in ["/Users/tofiqmaredia/Library/Android/sdk/platform-tools/aapt2","/Users/tofiqmaredia/Library/Android/sdk/emulator/aapt2","/Users/tofiqmaredia/Library/Android/sdk/cmdline-tools/latest/bin/aapt2","/Users/tofiqmaredia/Library/Android/sdk/tools/aapt2","/Users/tofiqmaredia/Library/Android/sdk/tools/bin/aapt2","/Users/tofiqmaredia/Library/Android/sdk/aapt2"]. Do you have Android Build Tools installed at '/Users/tofiqmaredia/Library/Android/sdk'?' while getting badging info
+2025-02-03 04:20:18:225 [9f27d7f9][ADB] Cannot read version codes of '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.11.apk' and/or 'io.appium.uiautomator2.server'
+2025-02-03 04:20:18:226 [9f27d7f9][ADB] Cannot read version names of '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.11.apk' and/or 'io.appium.uiautomator2.server'
+2025-02-03 04:20:18:226 [9f27d7f9][ADB] 'io.appium.uiautomator2.server.test' is installed
+2025-02-03 04:20:18:227 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Server packages status: [{"installState":"unknown","appPath":"/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.11.apk","appId":"io.appium.uiautomator2.server"},{"installState":"sameVersionInstalled","appPath":"/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk","appId":"io.appium.uiautomator2.server.test"}]
+2025-02-03 04:20:18:228 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Server packages are not going to be (re)installed
+2025-02-03 04:20:18:228 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Waiting up to 30000ms for services to be available
+2025-02-03 04:20:18:229 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell pm list instrumentation'
+2025-02-03 04:20:18:315 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Instrumentation target 'io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner' is available
+2025-02-03 04:20:18:319 [9f27d7f9][ADB] Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+2025-02-03 04:20:18:320 [9f27d7f9][ADB] Got the following command chunks to execute: [["dumpsys","deviceidle","whitelist","+io.appium.settings",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server",";","dumpsys","deviceidle","whitelist","+io.appium.uiautomator2.server.test",";"]]
+2025-02-03 04:20:18:320 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys deviceidle whitelist +io.appium.settings ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server ; dumpsys deviceidle whitelist +io.appium.uiautomator2.server.test ;'
+2025-02-03 04:20:18:436 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Performing shallow cleanup of automation leftovers
+2025-02-03 04:20:18:504 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] No obsolete sessions have been detected (socket hang up)
+2025-02-03 04:20:18:505 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell am force-stop io.appium.uiautomator2.server'
+2025-02-03 04:20:18:506 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell am force-stop io.appium.uiautomator2.server.test'
+2025-02-03 04:20:18:604 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Starting UIAutomator2 server 7.1.11
+2025-02-03 04:20:18:605 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Using UIAutomator2 server from '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v7.1.11.apk' and test from '/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2025-02-03 04:20:18:605 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Waiting up to 30000ms for UiAutomator2 to be online...
+2025-02-03 04:20:18:606 [9f27d7f9][ADB] Creating ADB subprocess with args: ["-P","5037","-s","1A191FDEE0068D","shell","am","instrument","-w","-e","disableAnalytics","true","io.appium.uiautomator2.server.test/androidx.test.runner.AndroidJUnitRunner"]
+2025-02-03 04:20:18:611 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/status' to command name 'getStatus'
+2025-02-03 04:20:18:613 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-02-03 04:20:18:623 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] socket hang up
+2025-02-03 04:20:19:162 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] [Instrumentation] 
+2025-02-03 04:20:19:626 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/status' to command name 'getStatus'
+2025-02-03 04:20:19:628 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-02-03 04:20:19:639 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] socket hang up
+2025-02-03 04:20:20:644 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/status' to command name 'getStatus'
+2025-02-03 04:20:20:645 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /status] to [GET http://127.0.0.1:8200/status] with no body
+2025-02-03 04:20:20:697 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"None","value":{"message":"UiAutomator2 Server is ready to accept commands","ready":true}}
+2025-02-03 04:20:20:698 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] The initialization of the instrumentation process took 2093ms
+2025-02-03 04:20:20:699 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/session' to command name 'createSession'
+2025-02-03 04:20:20:700 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /session] to [POST http://127.0.0.1:8200/session] with body: {"capabilities":{"firstMatch":[{"platformName":"Android","wdio:maxInstances":1,"deviceName":"1A191FDEE0068D","platformVersion":"13.0","orientation":"PORTRAIT","automationName":"UiAutomator2","appPackage":"com.intragrain.binsensemobile","newCommandTimeout":240,"noReset":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 6 Pro","platformVersion":"13.0","orientation":"PORTRAIT","automationName":"UiAutomator2","appPackage":"com.intragrain.binsensemobile","newCommandTimeout":240,"noReset":true},"deviceUDID":"1A191FDEE0068D","appActivity":"com.intragrain.binsensemobile/.MainActivity"}],"alwaysMatch":{}}}
+2025-02-03 04:20:20:727 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"capabilities":{"firstMatch":[{"platformName":"Android","wdio:maxInstances":1,"deviceName":"1A191FDEE0068D","platformVersion":"13.0","orientation":"PORTRAIT","automationName":"UiAutomator2","appPackage":"com.intragrain.binsensemobile","newCommandTimeout":240,"noReset":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 6 Pro","platformVersion":"13.0","orientation":"PORTRAIT","automationName":"UiAutomator2","appPackage":"com.intragrain.binsensemobile","newCommandTimeout":240,"noReset":true},"deviceUDID":"1A191FDEE0068D","appActivity":"com.intragrain.binsensemobile/.MainActivity"}],"alwaysMatch":{}},"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61"}}
+2025-02-03 04:20:20:728 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Determined the downstream protocol as 'W3C'
+2025-02-03 04:20:20:757 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /appium/device/pixel_ratio] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/appium/device/pixel_ratio] with no body
+2025-02-03 04:20:20:760 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2025-02-03 04:20:20:761 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /appium/device/system_bars] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/appium/device/system_bars] with no body
+2025-02-03 04:20:20:762 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/window/current/size' to command name 'getWindowSize'
+2025-02-03 04:20:20:763 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /window/current/size] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/window/current/size] with no body
+2025-02-03 04:20:20:768 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /appium/device/info] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/appium/device/info] with no body
+2025-02-03 04:20:20:770 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys window'
+2025-02-03 04:20:20:771 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys power'
+2025-02-03 04:20:20:789 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":3.5}
+2025-02-03 04:20:20:801 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"height":3120,"width":1440}}
+2025-02-03 04:20:20:803 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"statusBar":145}}
+2025-02-03 04:20:20:827 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"androidId":"44e655df8234537b","apiVersion":"33","bluetooth":{"state":"ON"},"brand":"google","carrierName":"","displayDensity":560,"locale":"en_US","manufacturer":"Google","model":"Pixel 6 Pro","networks":[{"capabilities":{"SSID":null,"linkDownBandwidthKbps":39688,"linkUpstreamBandwidthKbps":7454,"networkCapabilities":"NET_CAPABILITY_NOT_METERED,NET_CAPABILITY_INTERNET,NET_CAPABILITY_NOT_RESTRICTED,NET_CAPABILITY_TRUSTED,NET_CAPABILITY_NOT_VPN,NET_CAPABILITY_VALIDATED,NET_CAPABILITY_NOT_ROAMING,NET_CAPABILITY_FOREGROUND,NET_CAPABILITY_NOT_CONGESTED,NET_CAPABILITY_NOT_SUSPENDED","signalStrength":-48,"transportTypes":"TRANSPORT_WIFI"},"detailedState":"CONNECTED","extraInfo":"","isAvailable":true,"isConnected":true,"isFailover":false,"isRoaming":false,"state":"CONNECTED","subtype":-1,"subtypeName":"","type":1,"typeName":"WIFI"}],"platformVersion":"13","realDisplaySize":"1440x3120","timeZone":"America/Regina"}}
+2025-02-03 04:20:20:953 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Screen already unlocked, doing nothing
+2025-02-03 04:20:20:954 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Starting 'com.intragrain.binsensemobile/com.intragrain.binsensemobile/.MainActivity' and waiting for 'com.intragrain.binsensemobile/com.intragrain.binsensemobile/.MainActivity'
+2025-02-03 04:20:20:954 [9f27d7f9][ADB] Getting IDs of all 'com.intragrain.binsensemobile' processes
+2025-02-03 04:20:20:955 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell 'pgrep --help; echo $?''
+2025-02-03 04:20:21:034 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell pgrep -f \(\[\[:blank:\]\]\|\^\)com\.intragrain\.binsensemobile\(:\[a-zA-Z0-9_-\]\+\)\?\(\[\[:blank:\]\]\|\$\)'
+2025-02-03 04:20:21:168 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] 'com.intragrain.binsensemobile' is already running and noReset is enabled. Set forceAppLaunch capability to true if the app must be forcefully restarted on session startup.
+2025-02-03 04:20:21:169 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Setting initial orientation to 'PORTRAIT'
+2025-02-03 04:20:21:171 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/orientation' to command name 'setOrientation'
+2025-02-03 04:20:21:172 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /orientation] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/orientation] with body: {"orientation":"PORTRAIT"}
+2025-02-03 04:20:21:187 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":"PORTRAIT"}
+2025-02-03 04:20:21:190 [9f27d7f9][AppiumDriver@ed45] New AndroidUiautomator2Driver session created successfully, session 9f27d7f9-7fde-46ec-9273-1b19f464ec34 added to master session list
+2025-02-03 04:20:21:191 [9f27d7f9][AppiumDriver@ed45] Event 'newSessionStarted' logged at 1738556421191 (22:20:21 GMT-0600 (Central Standard Time))
+2025-02-03 04:20:21:192 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Cached the protocol value 'W3C' for the new session 9f27d7f9-7fde-46ec-9273-1b19f464ec34
+2025-02-03 04:20:21:193 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.createSession() result: {"capabilities":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"1A191FDEE0068D","platformVersion":"13","orientation":"PORTRAIT","automationName":"UiAutomator2","appPackage":"com.intragrain.binsensemobile","newCommandTimeout":240,"noReset":true,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","wdio:maxInstances":1,"deviceName":"Pixel 6 Pro","platformVersion":"13.0","orientation":"PORTRAIT","automationName":"UiAutomator2","appPackage":"com.intragrain.binsensemobile","newCommandTimeout":240,"noReset":true},"deviceUDID":"1A191FDEE0068D","appActivity":"com.intragrain.binsensemobile/.MainActivity","pixelRatio":"3.5","statBarHeight":145,"viewportRect":{"left":0,"top":145,"width":1440,"height":2975},"deviceApiLevel":33,"deviceManufacturer":"Google","deviceModel":"Pixel 6 Pro","deviceScreenSize":"1440x3120","deviceScreenDen...
+2025-02-03 04:20:21:198 [9f27d7f9][HTTP] <-- POST /session 200 6042 ms - 1093 
+2025-02-03 04:20:21:221 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/appium/settings {"settings":{"waitForSelectorTimeout":3000}}
+2025-02-03 04:20:21:228 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.updateSettings() with args: [{"waitForSelectorTimeout":3000},"9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:21:233 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/appium/settings' to command name 'updateSettings'
+2025-02-03 04:20:21:234 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /appium/settings] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/appium/settings] with body: {"settings":{"waitForSelectorTimeout":3000}}
+2025-02-03 04:20:21:257 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":null}
+2025-02-03 04:20:21:258 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.updateSettings() result: null
+2025-02-03 04:20:21:260 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/appium/settings 200 38 ms - 14 
+2025-02-03 04:20:51:331 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element {"using":"accessibility id","value":"tag_dashboard"}
+2025-02-03 04:20:51:335 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.findElement() with args: ["accessibility id","tag_dashboard","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:51:336 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-02-03 04:20:51:337 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Waiting up to 0 ms for condition
+2025-02-03 04:20:51:346 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element' to command name 'findElement'
+2025-02-03 04:20:51:348 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element] with body: {"strategy":"accessibility id","selector":"tag_dashboard","context":"","multiple":false}
+2025-02-03 04:20:51:504 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"ELEMENT":"00000000-0000-0097-ffff-ffff0000009d","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0097-ffff-ffff0000009d"}}
+2025-02-03 04:20:51:506 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0097-ffff-ffff0000009d","ELEMENT":"00000000-0000-0097-ffff-ffff0000009d"}
+2025-02-03 04:20:51:509 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element 200 177 ms - 137 
+2025-02-03 04:20:51:532 [9f27d7f9][HTTP] --> GET /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000009d/displayed {}
+2025-02-03 04:20:51:536 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0097-ffff-ffff0000009d","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:51:543 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element/00000000-0000-0097-ffff-ffff0000009d/attribute/displayed' to command name 'getAttribute'
+2025-02-03 04:20:51:544 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /element/00000000-0000-0097-ffff-ffff0000009d/attribute/displayed] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element/00000000-0000-0097-ffff-ffff0000009d/attribute/displayed] with no body
+2025-02-03 04:20:51:573 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":"true"}
+2025-02-03 04:20:51:575 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.elementDisplayed() result: true
+2025-02-03 04:20:51:577 [9f27d7f9][HTTP] <-- GET /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000009d/displayed 200 45 ms - 14 
+2025-02-03 04:20:51:614 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element {"using":"accessibility id","value":"tag_search_icon"}
+2025-02-03 04:20:51:616 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.findElement() with args: ["accessibility id","tag_search_icon","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:51:620 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-02-03 04:20:51:621 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Waiting up to 0 ms for condition
+2025-02-03 04:20:51:627 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element' to command name 'findElement'
+2025-02-03 04:20:51:631 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element] with body: {"strategy":"accessibility id","selector":"tag_search_icon","context":"","multiple":false}
+2025-02-03 04:20:51:640 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element {"using":"accessibility id","value":"tag_header_search_input"}
+2025-02-03 04:20:51:642 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.findElement() with args: ["accessibility id","tag_header_search_input","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:51:716 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"ELEMENT":"00000000-0000-0097-ffff-ffff0000031f","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0097-ffff-ffff0000031f"}}
+2025-02-03 04:20:51:717 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-02-03 04:20:51:718 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Waiting up to 0 ms for condition
+2025-02-03 04:20:51:723 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element' to command name 'findElement'
+2025-02-03 04:20:51:724 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element] with body: {"strategy":"accessibility id","selector":"tag_header_search_input","context":"","multiple":false}
+2025-02-03 04:20:51:726 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0097-ffff-ffff0000031f","ELEMENT":"00000000-0000-0097-ffff-ffff0000031f"}
+2025-02-03 04:20:51:729 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element 200 114 ms - 137 
+2025-02-03 04:20:51:751 [9f27d7f9][HTTP] --> GET /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000031f/displayed {}
+2025-02-03 04:20:51:753 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0097-ffff-ffff0000031f","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:52:055 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 404: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"error":"no such element","message":"An element could not be located on the page using the given search parameters","stacktrace":"io.appium.uiautomator2.common.exceptions.ElementNotFoundException: An element could not be located on the page using the given search parameters\n\tat io.appium.uiautomator2.handler.FindElement.safeHandle(FindElement.java:63)\n\tat io.appium.uiautomator2.handler.request.SafeRequestHandler.handle(SafeRequestHandler.java:59)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleRequest(AppiumServlet.java:259)\n\tat io.appium.uiautomator2.server.AppiumServlet.handleHttpRequest(AppiumServlet.java:253)\n\tat io.appium.uiautomator2.http.ServerHandler.channelRead(ServerHandler.java:77)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:366)\n\tat io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:352)\n\tat io.netty.chann...
+2025-02-03 04:20:52:057 [9f27d7f9][W3C] Matched W3C error code 'no such element' to NoSuchElementError
+2025-02-03 04:20:52:064 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element/00000000-0000-0097-ffff-ffff0000031f/attribute/displayed' to command name 'getAttribute'
+2025-02-03 04:20:52:065 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /element/00000000-0000-0097-ffff-ffff0000031f/attribute/displayed] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element/00000000-0000-0097-ffff-ffff0000031f/attribute/displayed] with no body
+2025-02-03 04:20:52:070 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Encountered internal error running command: NoSuchElementError: An element could not be located on the page using the given search parameters.
+    at AndroidUiautomator2Driver.findElOrEls (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/appium-android-driver/lib/commands/find.ts:86:11)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at AndroidUiautomator2Driver.findElOrElsWithProcessing (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:60:12)
+    at AndroidUiautomator2Driver.findElement (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/@appium/base-driver/lib/basedriver/commands/find.ts:75:12)
+2025-02-03 04:20:52:074 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element 404 432 ms - 946 
+2025-02-03 04:20:52:106 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":"true"}
+2025-02-03 04:20:52:107 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.elementDisplayed() result: true
+2025-02-03 04:20:52:110 [9f27d7f9][HTTP] <-- GET /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000031f/displayed 200 360 ms - 14 
+2025-02-03 04:20:52:130 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000031f/click {}
+2025-02-03 04:20:52:133 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.click() with args: ["00000000-0000-0097-ffff-ffff0000031f","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:52:137 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element/00000000-0000-0097-ffff-ffff0000031f/click' to command name 'click'
+2025-02-03 04:20:52:138 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element/00000000-0000-0097-ffff-ffff0000031f/click] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element/00000000-0000-0097-ffff-ffff0000031f/click] with body: {"element":"00000000-0000-0097-ffff-ffff0000031f"}
+2025-02-03 04:20:52:232 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":null}
+2025-02-03 04:20:52:234 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.click() result: null
+2025-02-03 04:20:52:236 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000031f/click 200 106 ms - 14 
+2025-02-03 04:20:52:248 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element {"using":"accessibility id","value":"tag_header_search_input"}
+2025-02-03 04:20:52:249 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.findElement() with args: ["accessibility id","tag_header_search_input","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:52:250 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Valid locator strategies for this request: xpath, id, class name, accessibility id, css selector, -android uiautomator
+2025-02-03 04:20:52:251 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Waiting up to 0 ms for condition
+2025-02-03 04:20:52:253 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element' to command name 'findElement'
+2025-02-03 04:20:52:254 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element] with body: {"strategy":"accessibility id","selector":"tag_header_search_input","context":"","multiple":false}
+2025-02-03 04:20:52:761 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":{"ELEMENT":"00000000-0000-0097-ffff-ffff000004e2","element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0097-ffff-ffff000004e2"}}
+2025-02-03 04:20:52:764 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-0097-ffff-ffff000004e2","ELEMENT":"00000000-0000-0097-ffff-ffff000004e2"}
+2025-02-03 04:20:52:768 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element 200 518 ms - 137 
+2025-02-03 04:20:52:786 [9f27d7f9][HTTP] --> GET /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff000004e2/displayed {}
+2025-02-03 04:20:52:789 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.elementDisplayed() with args: ["00000000-0000-0097-ffff-ffff000004e2","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:52:794 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element/00000000-0000-0097-ffff-ffff000004e2/attribute/displayed' to command name 'getAttribute'
+2025-02-03 04:20:52:795 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [GET /element/00000000-0000-0097-ffff-ffff000004e2/attribute/displayed] to [GET http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element/00000000-0000-0097-ffff-ffff000004e2/attribute/displayed] with no body
+2025-02-03 04:20:52:818 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":"true"}
+2025-02-03 04:20:52:819 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.elementDisplayed() result: true
+2025-02-03 04:20:52:821 [9f27d7f9][HTTP] <-- GET /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff000004e2/displayed 200 34 ms - 14 
+2025-02-03 04:20:52:837 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff000004e2/value {"text":"Master"}
+2025-02-03 04:20:52:839 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.setValue() with args: ["Master","00000000-0000-0097-ffff-ffff000004e2","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:52:842 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element/00000000-0000-0097-ffff-ffff000004e2/value' to command name 'setValue'
+2025-02-03 04:20:52:843 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Added 'value' property ["M","a","s","t","e","r"] to 'setValue' request body
+2025-02-03 04:20:52:844 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element/00000000-0000-0097-ffff-ffff000004e2/value] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element/00000000-0000-0097-ffff-ffff000004e2/value] with body: {"elementId":"00000000-0000-0097-ffff-ffff000004e2","text":"Master","replace":false,"value":["M","a","s","t","e","r"]}
+2025-02-03 04:20:53:799 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":null}
+2025-02-03 04:20:53:800 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.setValue() result: null
+2025-02-03 04:20:53:803 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff000004e2/value 200 965 ms - 14 
+2025-02-03 04:20:53:814 [9f27d7f9][HTTP] --> POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000031f/click {}
+2025-02-03 04:20:53:816 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.click() with args: ["00000000-0000-0097-ffff-ffff0000031f","9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:53:819 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/element/00000000-0000-0097-ffff-ffff0000031f/click' to command name 'click'
+2025-02-03 04:20:53:820 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [POST /element/00000000-0000-0097-ffff-ffff0000031f/click] to [POST http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61/element/00000000-0000-0097-ffff-ffff0000031f/click] with body: {"element":"00000000-0000-0097-ffff-ffff0000031f"}
+2025-02-03 04:20:54:490 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":null}
+2025-02-03 04:20:54:492 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Responding to client with driver.click() result: null
+2025-02-03 04:20:54:493 [9f27d7f9][HTTP] <-- POST /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34/element/00000000-0000-0097-ffff-ffff0000031f/click 200 679 ms - 14 
+2025-02-03 04:20:54:502 [9f27d7f9][HTTP] --> DELETE /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34 {}
+2025-02-03 04:20:54:504 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Calling AppiumDriver.deleteSession() with args: ["9f27d7f9-7fde-46ec-9273-1b19f464ec34"]
+2025-02-03 04:20:54:505 [9f27d7f9][AppiumDriver@ed45] Event 'quitSessionRequested' logged at 1738556454505 (22:20:54 GMT-0600 (Central Standard Time))
+2025-02-03 04:20:54:508 [9f27d7f9][AppiumDriver@ed45] Removing session 9f27d7f9-7fde-46ec-9273-1b19f464ec34 from our master session list
+2025-02-03 04:20:54:508 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Deleting UiAutomator2 session
+2025-02-03 04:20:54:510 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Deleting UiAutomator2 server session
+2025-02-03 04:20:54:510 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Matched '/' to command name 'deleteSession'
+2025-02-03 04:20:54:511 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Proxying [DELETE /] to [DELETE http://127.0.0.1:8200/session/19591075-60a6-4704-b89f-f53d446b2d61] with no body
+2025-02-03 04:20:54:534 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Got response with status 200: {"sessionId":"19591075-60a6-4704-b89f-f53d446b2d61","value":null}
+2025-02-03 04:20:54:537 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] [Instrumentation] io.appium.uiautomator2.server.test.AppiumUiAutomator2Server:
+2025-02-03 04:20:54:538 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] [Instrumentation] The process has exited with code null, signal SIGTERM
+2025-02-03 04:20:54:539 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell dumpsys activity services io.appium.settings/.recorder.RecorderService'
+2025-02-03 04:20:54:542 [9f27d7f9][ADB] Removing forwarded port socket connection: 8200 
+2025-02-03 04:20:54:542 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D forward --remove tcp:8200'
+2025-02-03 04:20:54:577 [9f27d7f9][38;5;-110m[AndroidUiautomator2Driver@e7fc] Restoring hidden api policy to the device default configuration
+2025-02-03 04:20:54:577 [9f27d7f9][ADB] Running '/Users/tofiqmaredia/Library/Android/sdk/platform-tools/adb -P 5037 -s 1A191FDEE0068D shell 'settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy''
+2025-02-03 04:20:54:740 [9f27d7f9][Logcat] Stopping logcat capture
+2025-02-03 04:20:54:743 [9f27d7f9][AppiumDriver@ed45] Event 'quitSessionFinished' logged at 1738556454743 (22:20:54 GMT-0600 (Central Standard Time))
+2025-02-03 04:20:54:744 [9f27d7f9][AppiumDriver@ed45] Received response: null
+2025-02-03 04:20:54:744 [9f27d7f9][AppiumDriver@ed45] But deleting session, so not returning
+2025-02-03 04:20:54:745 [9f27d7f9][AppiumDriver@ed45] Responding to client with driver.deleteSession() result: null
+2025-02-03 04:20:54:747 [9f27d7f9][HTTP] <-- DELETE /session/9f27d7f9-7fde-46ec-9273-1b19f464ec34 200 244 ms - 14 
+2025-02-03 04:22:18:447 [Appium] Received SIGTERM - shutting down
+2025-02-03 04:22:18:447 [AppiumDriver@ed45] There are no active sessions for cleanup
+2025-02-03 04:22:18:487 uncaughtException: write EPIPE
+Error: write EPIPE
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_errnoException (node:internal/errors:690:12)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Socket.Writable.write (node:internal/streams/writable:494:10)
+    at Console.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/transports/console.js:87:23)
+    at Console._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:314:12)
+    at DerivedLogger.Transform._read (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.<computed> [as info] (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/create-logger.js:81:14)
+    at Log.<anonymous> (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium/lib/logsink.js:88:65)
+    at Log.emit (node:events:514:28)
+    at Log.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/@appium/logger/lib/log.ts:258:10)
+    at Log.info (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/@appium/logger/lib/log.ts:179:10)
+    at Object.wrappedLogger.<computed> [as info] (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/@appium/support/lib/logging.js:72:22)
+    at process.onSignal (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium/lib/main.js:447:14)
+    at Object.onceWrapper (node:events:629:26)
+    at process.emit (node:events:526:35)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/source-map-support/source-map-support.js:516:21)
+    at Signal.callbackTrampoline (node:internal/async_hooks:130:17)
+2025-02-03 04:22:18:489 uncaughtException: write EPIPE
+Error: write EPIPE
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_errnoException (node:internal/errors:690:12)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Socket.Writable.write (node:internal/streams/writable:494:10)
+    at Console.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/transports/console.js:59:25)
+    at Console._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:314:12)
+    at DerivedLogger.Transform._read (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:178:25)
+2025-02-03 04:22:18:503 uncaughtException: write EPIPE
+Error: write EPIPE
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_errnoException (node:internal/errors:690:12)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Socket.Writable.write (node:internal/streams/writable:494:10)
+    at Console.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/transports/console.js:59:25)
+    at Console._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:314:12)
+    at DerivedLogger.Transform._read (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:178:25)
+2025-02-03 04:22:18:520 uncaughtException: write EPIPE
+Error: write EPIPE
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_errnoException (node:internal/errors:690:12)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Socket.Writable.write (node:internal/streams/writable:494:10)
+    at Console.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/transports/console.js:59:25)
+    at Console._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:314:12)
+    at DerivedLogger.Transform._read (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:178:25)
+2025-02-03 04:22:18:521 uncaughtException: write EPIPE
+Error: write EPIPE
+    at __node_internal_captureLargerStackTrace (node:internal/errors:563:5)
+    at __node_internal_errnoException (node:internal/errors:690:12)
+    at afterWriteDispatched (node:internal/stream_base_commons:160:15)
+    at writeGeneric (node:internal/stream_base_commons:151:3)
+    at Socket._writeGeneric (node:net:952:11)
+    at Socket._write (node:net:964:8)
+    at writeOrBuffer (node:internal/streams/writable:556:12)
+    at _write (node:internal/streams/writable:490:10)
+    at Socket.Writable.write (node:internal/streams/writable:494:10)
+    at Console.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/transports/console.js:59:25)
+    at Console._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/modern.js:103:17)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at Console.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.ondata (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:629:20)
+    at DerivedLogger.emit (node:events:526:35)
+    at addChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:279:12)
+    at readableAddChunk (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:262:11)
+    at DerivedLogger.Readable.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:228:10)
+    at DerivedLogger.Transform.push (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:132:32)
+    at DerivedLogger._transform (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:314:12)
+    at DerivedLogger.Transform._read (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:166:10)
+    at DerivedLogger.Transform._write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_transform.js:155:83)
+    at doWrite (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:390:139)
+    at writeOrBuffer (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:381:5)
+    at DerivedLogger.Writable.write (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/node_modules/readable-stream/lib/_stream_writable.js:302:11)
+    at DerivedLogger.log (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/logger.js:216:12)
+    at ExceptionHandler._uncaughtException (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/winston/lib/winston/exception-handler.js:220:17)
+    at process.emit (node:events:514:28)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/lockfile/node_modules/signal-exit/index.js:199:34)
+    at process.emit (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/source-map-support/source-map-support.js:516:21)
+    at processEmit [as emit] (/Users/tofiqmaredia/Project/wdio/wdio-ts-project/node_modules/appium-uiautomator2-driver/node_modules/signal-exit/index.js:199:34)
+    at process._fatalException (node:internal/process/execution:178:25)
